@@ -15,5 +15,8 @@ https://github.com/irfanspace/Data-analysis-using-R/blob/main/Box_plot.R
 ### Heat Map
 https://github.com/irfanspace/Data-analysis-using-R/blob/main/Heat_map.R
 
+### Histogram
+https://github.com/irfanspace/Data-analysis-using-R/blob/main/Histogram.R
+
 ### Violin Plot
 https://github.com/irfanspace/Data-analysis-using-R/blob/main/Violin_plot.R
