@@ -1,7 +1,7 @@
-Visualization helps bring the story of date to life and make that story easier to understand.
+Visualization helps bring the story of data to life and make that story easier to understand.
 Different visualization packages in R:
 1.Plotly: General-purpose package
-2. RGL: focus on specific solutions like #D visuals
+2. RGL: focus on specific solutions like 3D visuals
 3. ggplot2
 4. Lattice
 5. Dygraphs
