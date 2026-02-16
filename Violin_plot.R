@@ -25,13 +25,14 @@ hw_p +
 
 #To change the amount of smoothing, use the adjust parameter. The default value is 1; 
 #use larger values for more smoothing and smaller values for less smoothing
-# More smoothing
+# for More smoothing
 hw_p +
   geom_violin(adjust = 2)
 
 # Less smoothing
 hw_p +
   geom_violin(adjust = .5)
+
 
 
 
