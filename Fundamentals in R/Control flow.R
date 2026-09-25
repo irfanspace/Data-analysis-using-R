@@ -103,7 +103,7 @@ colorMapper <- function(x) {
 colorMapper('red')
 colorMapper('tree')
 
-# For Loop
+##========== For Loop
 mat1 = matrix(
   data = rnorm(12),
   nrow = 3,
@@ -112,6 +112,33 @@ mat1 = matrix(
 
 #Initialize result vector. We know how large the result is.
 means <- vector("list", ncol(mat1))
+
+#Iterate over matrix columns and populate result
+for (i in 1:ncol(mat1)) {
+  means [[i]] <- mean(mat1[,i])
+}
+
+##========= While loop
+# Initialize a vector of 0
+items <- vector('numeric', length = 3)
+
+# Add a vector of random numbers to the initial vector, until the total sum is larger 10
+# the total number of iterations is not known beforehand
+
+while(sum(items) < 10) {
+  items <- items + rnorm(length(items))
+}
+items
+
+#Iteration 
+items <- vector('numeric', length = 3)
+iter <- 0
+while(sum(items) < 10) {
+  iter <- iter + 1
+  items <- items + rnorm(length(items))
+}
+iter
+items
 
 #Iterate over matrix columns and populate result
 for (i in 1:ncol(mat1)) {
